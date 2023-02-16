@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+html, body, h1, p, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* CSS HEX */
+:root{
+  --eerie-black: #262626ff;
+  --eerie-black-2: #1c1c1cff;
+  --space-cadet: #292c51ff;
+  --medium-slate-blue: #6c77efff;
+  --blue: #0017ffff;
+  --yellow-ryb: #ffff33ff;
+  --white: #fdfdfdff;
+  --light-gray: #ced5d9ff;
+}
+.text {
+  color: white;
+}
+body {
+    background-color: var(--eerie-black-2);
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+.notes--main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+

@@ -8,3 +8,10 @@ about matchups and characters.
 
 Libraries used - 
 Greensock Animation Package. (cdn, with scroll plugin)
+
+
+TODO -- Notes page:
+1. text area: form 
+2. Tag system tagify.
+3. search system for tags. 
+
