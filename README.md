@@ -15,3 +15,6 @@ TODO -- Notes page:
 2. Tag system tagify.
 3. search system for tags. 
 
+
+
+big issues - layout. I used 0.5 scale on layout. blah - fixed¬

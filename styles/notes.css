@@ -21,9 +21,7 @@ html, body, h1, p, h2, h3 {
   --white: #fdfdfdff;
   --light-gray: #ced5d9ff;
 }
-.text {
-  color: white;
-}
+
 body {
     background-color: var(--eerie-black-2);
     min-height: 100vh;
@@ -35,3 +33,68 @@ body {
   align-items: flex-end;
 }
 
+.text--600 {
+  font: 20px Iceland, sans-serif;
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: center;
+}
+
+.text-blue {
+    color: var(--medium-slate-blue);
+}
+
+.text-white {
+    color: var(--white)
+}
+.text-right {
+    text-align: right;
+}
+
+.true-inner-shadow {
+    position: relative;
+}
+
+.true-inner-shadow::before {
+    content: attr(title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.text-link {
+  font: 20px Iceland, sans-serif;
+}
+
+.true-inner-shadow::after {
+    content: attr(title);
+    color: var(--yellow-ryb);
+    /* filter: brightness(50%); */
+    position: absolute;
+    top: -4px;
+    left: 0;
+    z-index: 10;
+}
+
+table.Table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffff33ff;
+  border-style: solid;
+  font-family: Iceland, sans-serif;
+  color: #000000;
+}
+
+table.Table td, table.Table th {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.Table thead {
+  background-color: #ffff33ff;
+}

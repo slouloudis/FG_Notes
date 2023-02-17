@@ -112,11 +112,6 @@ body {
     flex: 1;
 }
 
-.offset {
-  margin-bottom: -200px;
-  margin-right: -20px;
-}
-
 svg {
   transform: scale(.8);
 }
@@ -129,7 +124,7 @@ svg {
 }
 
 .imgcontainer--1 {
-  transform: scale(.5);
+  /* transform: scale(.5); */
   width: 50%;
   margin-right: 30px;
   display: flex;
@@ -140,8 +135,17 @@ svg {
 
 .imgcontainer--2 {
   display: flex;
-  transform: scale(.5);
-  width: 100%;
+  /* transform: scale(.5); */
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.imgcontainer > * {
+  flex: 1;
+}
+
+img {
+  height: 180px;
+  width: 180px;
 }
